@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 
 export default () => {
@@ -9,7 +8,6 @@ export default () => {
   }
 
   const increment = () => {
-    console.log('here');
     setCount(count + 1);
   }
 

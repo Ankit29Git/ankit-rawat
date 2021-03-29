@@ -18,11 +18,11 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "client-install": "npm install --prefix build",
+    "build": "react-scripts build",
+    "build-install": "npm install --prefix build",
     "start": "node server/index.js",
     "server": "nodemon server/index.js",
-    "client": "npm start --prefix build",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run build\""
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
