@@ -31,7 +31,7 @@ app.use('^/$', (req, res, next)=>{
     });
 });
 
-app.listen(port, ()=>{
+app.listen(process.env.PORT || port, ()=>{
     // console.log(path.resolve(__dirname));
     console.log(`Server started at port: ${port}`);
 });
