@@ -19,12 +19,10 @@
   },
   "scripts": {
     "client-install": "npm install --prefix build",
-    "client": "npm start --prefix build",
-
-    "dev": "node server/index.js",
+    "start": "node server/index.js",
     "server": "nodemon server/index.js",
-    
-    "start": "npm run dev && npm run client"
+    "client": "npm start --prefix build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "eslintConfig": {
     "extends": [
