@@ -1,7 +1,3 @@
-//  this project setup was done using this link https://www.newline.co/@satansdeer/server-side-rendering-with-react--e753063e
-//  Some more material to study about SSR :
-//  https://blog.logrocket.com/why-you-should-render-react-on-the-server-side-a50507163b79/
-
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
