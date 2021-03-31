@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+    background-color: #444d51;
+    color: #ffffff;
+    font-family: 'New Tegomin', serif;
+    padding: 2rem 8rem;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}

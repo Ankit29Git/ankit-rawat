@@ -20,6 +20,9 @@
   "scripts": {
     "build": "react-scripts build",
     "build-install": "npm install --prefix build",
+    
+    "client": "react-scripts start",
+
     "start": "node server/index.js",
     "server": "nodemon server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run build\""
