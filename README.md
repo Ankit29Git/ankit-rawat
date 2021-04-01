@@ -14,4 +14,8 @@
 //  https://www.freecodecamp.org/news/create-react-app-npm-scripts-explained/
 
 //  did not use this, but if you need to create an app from scratch(i.e. no CRA), this can be used
-//  https://dev.to/achhapolia10/adding-style-to-server-side-rendering-and-automating-the-build-process-59l"# ankit-rawat" 
+//  https://dev.to/achhapolia10/adding-style-to-server-side-rendering-and-automating-the-build-process-59l"
+
+//  https://www.datree.io/resources/git-error-fatal-remote-origin-already-exists
+
+//  https://linuxize.com/post/change-git-commit-message/

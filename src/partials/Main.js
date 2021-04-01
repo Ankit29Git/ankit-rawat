@@ -74,7 +74,7 @@ export default () => {
                     </div>
                 </div>
             </div>
-            <div className="container-common others-container">
+            <div className="others-container">
                 <section className="others-common-styling">
                     <h2>Languages</h2>
                     <div className="languages">
