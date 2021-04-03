@@ -7,6 +7,13 @@ import './App.css'
 export default () => {
   return (
     <div className='container'>
+      <div className="glow">
+        <span className="glowythingy"></span>
+      </div>
+
+      {/* <div className="glowing">
+        <span style={{ "--i": "1" }}></span>
+      </div> */}
       <Header />
       <Main />
     </div>
